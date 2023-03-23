@@ -1,0 +1,55 @@
+body
+{
+	font-family: "times new roman";
+	font-size: 16;
+	padding: 0px;
+	margin: 0px;
+}
+
+div
+{
+	position: relative;
+}
+
+#box
+{
+	background: #b0adff;
+	padding-bottom: 4px;
+	width: 300px;
+}
+
+#inputs
+{
+	display: flex;
+}
+
+#result
+{
+	width: 400px;
+}
+
+#company
+{
+	font-size: 20px;
+}
+
+#name, #phone
+{
+	font-size: 14px;
+}
+
+#title, #email
+{
+	font-size: 12px;
+}
+
+.center
+{
+	text-align: center;
+	left: 0px;
+}
+
+.field
+{
+	margin-bottom: 1px;
+}

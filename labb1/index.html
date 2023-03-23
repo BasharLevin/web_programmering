@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <script src="index.js"></script> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitkort</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <div id="orderbox"> 
+        <h1>Beställ ditt visitkort här: </h1> 
+        <p>Företag .......
+            <input class="textfield" id="businesstxt" type="text" /> 
+        </p>
+
+        <p>Efternamn .....
+            <input class="textfield" id="lastnametxt" type="text"/> 
+
+        <p>Förnamn .......
+            <input class="textfield" id="firstnametxt" type="text" /> 
+        </p>
+
+        <p>Titel .........
+            <input class="textfield" id="titeltxt" type="text" />
+        </p>
+
+        <p>Telefon .......
+            <input class="textfield" id="phonetxt" type="text" /> 
+        </p>
+
+        <p>E-post ........
+            <input class="textfield" id="emailtxt" type="text" /> 
+        </p>
+
+        <p>Bakgrundsfärg .
+            <select id="backgroundselect"> 
+                <option value = "lightblue" selected>Ljusblå</option>
+                <option value = "lightyellow">Ljusgul</option>
+                <option value = "white">Vit</option>
+                <option value = "turquoise">Turkos</option>
+            </select>
+        </p>
+
+        <p>Textfärg .....
+            <select id="colorselect"> 
+                <option value = "black" selected>Svart</option>
+                <option value = "blue">Blå</option>
+                <option value = "red">Röd</option>
+                <option value = "darkgreen">Mörkgrön</option>
+            </select>
+        </p>
+
+        <p>Typsnitt
+            <select id="fontselect"> 
+                <option value = "Verdana" selected>Verdana</option>
+                <option value = "Arial">Arial</option>
+                <option value = "Tahoma">Tahoma</option>
+                <option value = "Impact">Impact</option>
+            </select>
+        </p>
+
+        <div id="buttons"> 
+            <button id="clear">Nollställ</button>
+            <button id="print">Skriv Ut</button>
+        </div>
+    </div>
+
+    <div id="resultbox"> 
+        <span id="business">DesignSpecialisten</span><br>
+        <span id="firstname">Mårten</span><br>
+        <span id="lastname">Gås</span><br>
+        <span id="titel">Tänkare</span><br>
+        <span id="phone">Tfn </span><br>
+        <span id="email">Epost: </span><br>
+    </div>
+</body>
+</html>

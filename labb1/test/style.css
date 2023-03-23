@@ -1,0 +1,48 @@
+.bt1{
+    margin-top: 9px;
+    margin-left: 15%;
+    background-color: lightgreen;
+}
+.byt2{
+    background-color: lightgreen;
+}
+label{
+    width: 150px;
+    float: left;
+}
+
+#page1{
+    padding: 1px;
+    background-color: antiquewhite;
+    width: 500px;
+}
+#page2{
+    padding: 1px;
+    width: 500px;
+}
+#output2{
+    position: relative;
+    
+}
+
+.reset{
+    margin-top: 5px;
+    background-color: lightcoral;
+}
+#page2 p{
+    margin: 0px;
+    line-height: 20px;
+}
+#page2 h1{
+    margin: 0px;
+    line-height: 24px;
+}
+#output2, #output3 {
+    width: fit-content;
+    display: inline-block;
+}
+#output5{
+    padding-top: 10px;
+    margin-top: 25px;
+}
+

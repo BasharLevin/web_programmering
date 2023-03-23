@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Labb1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="page1">
+        <h1 id="intro">Beställ dit visitkort här:</h1>
+
+        <div>
+            <label for="Företag">Företag:</label>
+            <input class="Företag" type="text" id="Företag" name="Företag" placeholder="Företag">
+        </div>
+        <div>
+            <label for="Efternamn">Efternamn:</label>
+            <input type="text" id="Efternamn" name="Efternamn" placeholder="Efternamn">
+        </div>
+        <div>
+            <label for="Förnamn">Förnamn:</label>
+            <input class="Förnamn" type="text" id="Förnamn" name="Förnamn" placeholder="Förnamn">
+        </div>
+        <div>
+            <label for="Titel">Titel:</label>
+            <input class="Titel" type="text" id="Titel" name="Titel" placeholder="Titel">
+        </div>
+        <div>
+            <label for="telefonnummeer">Telefonnummeer:</label>
+            <input type="tel" id="telefonnummeer" name="telefonnummeert" placeholder="Telefonnummer" maxlength="10">
+        </div>
+        <div>
+            <label for="Epost">E-post:</label>
+            <input class="Epost" type="email" id="Epost" name="Epost" placeholder="Epost">
+        </div>
+
+        <div id="Bakrundsfärg">
+            <label for="bakrundsfärg">Bakrundsfärg:</label>
+            <select class="bakrundsfärg" name="bakrundsfärg" id="bakrundsfärg">
+                <option value="lightblue">Ljusblå</option>
+                <option value="lightyellow">Ljusgul</option>
+                <option value="white">Vit</option>
+                <option value="turquoise">Turkos</option>
+            </select>
+        </div>
+
+        <div id="Textfärg">
+            <label for="textfärg">Textfärg:</label>
+            <select class="textfärg" name="textfärg" id="textfärg">
+                <option value="black">Svart</option>
+                <option value="blue">Blå</option>
+                <option value="red">Röd</option>
+                <option value="darkgreen">Mörkgrön</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="typsnitt">Typsnitt:</label>
+            <select class="typsnitt" name="Typsnitt" id="typsnitt">
+                <option value="Verdana">Verdana</option>
+                <option value="Ariel">Ariel</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Impact">Impact</option>
+            </select>
+        </div>
+        <div>
+            <button class="bt1" id="byt1">Skriv Ut</button>
+            <button class="reset" id="reset">Nollställ</button>
+        </div>
+    </div>
+    <div id="page2">
+        <h1 class="output" id="output1">""</h1>
+        <p class="output" id="output3"></p>
+        <p class="output" id="output2"></p>
+        <p class="output" id="output4"></p>
+        <p class="output" id="output5"></p>
+        <p class="output" id="output6"></p>
+
+        <button class="byt2" id="byt2">Back to page 1</button>
+
+    </div>
+
+    <script src="java.js"></script>
+
+</body>
+
+</html>
