@@ -1,0 +1,82 @@
+h1{
+    color: green;
+    text-align: center;
+}
+p{
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+label{
+    color: midnightblue;
+    font-size: 17px;
+}
+#login_section{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px;
+    background: aqua;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 20px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login_section:hover{
+    width: 400px;
+}
+
+
+#login{
+    background-color: azure;
+    box-shadow: 0 0 6px 3px grey;
+}
+
+#footer_id{
+    position: -ms-device-fixed;
+    background-color: darkcyan;
+    display: block;
+    margin-top: auto;
+    height: 90px;
+    box-shadow: 0 0 4px 2px black;
+}
+#footer_div1,#footer_div2{
+    display: inline-block;
+    margin-left: 10%;
+
+}
+#login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#login:hover {
+    background-color: #45a049;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section a {
+    margin-right: 20px;
+}
+
+
